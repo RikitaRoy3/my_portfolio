@@ -26,13 +26,13 @@ export default function Overlay() {
             {/* Section 1: Center - Hero */}
             <motion.div
                 style={{ opacity: opacity1, y: y1 }}
-                className="absolute inset-0 flex items-center justify-center text-center"
+                className="absolute inset-0 flex items-center justify-start pl-8 md:pl-32 text-left"
             >
-                <div className="p-4">
-                    <h1 className="text-6xl md:text-9xl font-bold tracking-tighter mb-6 text-black/90 drop-shadow-md">Rikita Roy</h1>
-                    <div className="h-px w-24 bg-black/30 mx-auto mb-6" />
-                    <p className="text-xl md:text-2xl font-medium tracking-wide text-neutral-900 drop-shadow-sm">
-                        Problem Solver <span className="mx-2 opacity-50">|</span> MERN Stack <span className="mx-2 opacity-50">|</span> Java <span className="mx-2 opacity-50">|</span> Python <span className="mx-2 opacity-50">|</span> AI/ML <span className="mx-2 opacity-50">|</span> C
+                <div className="p-4 max-w-2xl group cursor-default">
+                    <h1 className="text-6xl md:text-9xl font-bold tracking-tighter mb-6 text-neutral-200 drop-shadow-lg transition-all duration-500 group-hover:text-white group-hover:drop-shadow-2xl">Rikita Roy</h1>
+                    <div className="h-px w-24 bg-white/30 mr-auto mb-6 transition-all duration-500 group-hover:w-32 group-hover:bg-white/50" />
+                    <p className="text-xl md:text-2xl font-medium tracking-wide text-neutral-300 drop-shadow-md transition-colors duration-300 group-hover:text-white">
+                        Departmental Topper <span className="text-sm opacity-70">CSE(Data Science)</span> <span className="mx-2 opacity-50">|</span> Problem Solver <span className="mx-2 opacity-50">|</span> MERN Stack <span className="mx-2 opacity-50">|</span> Java <span className="mx-2 opacity-50">|</span> C <span className="mx-2 opacity-50">|</span> AI/ML <span className="mx-2 opacity-50">|</span> Python
                     </p>
                 </div>
             </motion.div>
