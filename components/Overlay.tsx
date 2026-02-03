@@ -28,11 +28,11 @@ export default function Overlay() {
                 style={{ opacity: opacity1, y: y1 }}
                 className="absolute inset-0 flex items-center justify-center text-center"
             >
-                <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl border border-black/5 shadow-sm">
-                    <h1 className="text-6xl md:text-9xl font-bold tracking-tighter mb-6 text-black">Rikita Roy</h1>
-                    <div className="h-px w-24 bg-black/20 mx-auto mb-6" />
-                    <p className="text-xl md:text-2xl font-light tracking-wide text-neutral-800">
-                        Problem Solver <span className="mx-2 opacity-30">|</span> MERN Stack <span className="mx-2 opacity-30">|</span> Java <span className="mx-2 opacity-30">|</span> Python <span className="mx-2 opacity-30">|</span> AI/ML <span className="mx-2 opacity-30">|</span> C
+                <div className="p-4">
+                    <h1 className="text-6xl md:text-9xl font-bold tracking-tighter mb-6 text-black/90 drop-shadow-md">Rikita Roy</h1>
+                    <div className="h-px w-24 bg-black/30 mx-auto mb-6" />
+                    <p className="text-xl md:text-2xl font-medium tracking-wide text-neutral-900 drop-shadow-sm">
+                        Problem Solver <span className="mx-2 opacity-50">|</span> MERN Stack <span className="mx-2 opacity-50">|</span> Java <span className="mx-2 opacity-50">|</span> Python <span className="mx-2 opacity-50">|</span> AI/ML <span className="mx-2 opacity-50">|</span> C
                     </p>
                 </div>
             </motion.div>
