@@ -9,6 +9,7 @@ const experiences = [
         duration: "Present",
         location: "Remote",
         description: "Integrated AI-based features with delivered, optimized end-to-end solution within a remote Agile team.",
+        link: "https://drive.google.com/file/d/1rHWUSz0CM_4FRL-DdY13jB204Z6W6THX/view",
     },
     {
         company: "ACM Students Chapter",
@@ -61,6 +62,19 @@ export default function Experience() {
                             <p className="text-gray-700 text-lg leading-relaxed max-w-2xl">
                                 {exp.description}
                             </p>
+                            {/* @ts-ignore */}
+                            {exp.link && (
+                                <div className="mt-4">
+                                    <a
+                                        href={exp.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors"
+                                    >
+                                        View Credential <span className="ml-1">→</span>
+                                    </a>
+                                </div>
+                            )}
                         </motion.div>
                     ))}
                 </div>

@@ -38,6 +38,17 @@ export default function Achievements() {
                         </motion.div>
                     ))}
                 </div>
+
+                <div className="mt-12 text-center md:text-left">
+                    <a
+                        href="https://drive.google.com/drive/u/4/folders/1b7kxAGaItQOWWZgVFZx1QUoJXDn61iwJ"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center px-6 py-3 rounded-full bg-black text-white font-medium hover:bg-gray-800 transition-colors"
+                    >
+                        View All Achievements <span className="ml-2">↗</span>
+                    </a>
+                </div>
             </div>
         </section>
     );

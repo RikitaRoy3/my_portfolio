@@ -32,7 +32,7 @@ export default function Overlay() {
                     <h1 className="text-6xl md:text-9xl font-bold tracking-tighter mb-6 text-neutral-200 drop-shadow-lg transition-all duration-500 group-hover:text-white group-hover:drop-shadow-2xl">Rikita Roy</h1>
                     <div className="h-px w-[600px] max-w-full bg-white/30 mr-auto mb-6 transition-all duration-500 group-hover:w-[620px] group-hover:bg-white/50" />
                     <p className="text-xl md:text-2xl font-medium tracking-wide text-neutral-300 drop-shadow-md transition-colors duration-300 group-hover:text-neutral-100">
-                        | Departmental Topper <span className="text-sm opacity-70">CSE (Data Science)</span>
+                        | <a href="https://drive.google.com/drive/u/4/folders/1ZH3mtIcXwl1WRyFoU_mdKmcZU1DjWfAs" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:underline transition-colors decoration-white/50 underline-offset-4">Departmental Topper</a> <span className="text-sm opacity-70">CSE (Data Science)</span>
                         <span className="mx-2 opacity-50">|</span>
                         Problem Solver (DSA)
                         <span className="mx-2 opacity-50">|</span>

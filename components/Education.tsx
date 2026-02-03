@@ -30,6 +30,16 @@ export default function Education() {
                             <div className="inline-block bg-black text-white text-xs font-bold px-3 py-1 rounded-full mb-6">
                                 Ranked 1st in Department
                             </div>
+                            <div>
+                                <a
+                                    href="https://drive.google.com/drive/u/4/folders/1bgI_cmlLlHwpL65DoVE5ctIphb4XmsAj"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors"
+                                >
+                                    View Marksheets →
+                                </a>
+                            </div>
                         </div>
 
                         <div className="overflow-x-auto">
@@ -69,7 +79,15 @@ export default function Education() {
                             <h3 className="text-xl font-bold text-black mb-2">Class 12 (CBSE)</h3>
                             <p className="text-gray-700 mb-1">BDM International School</p>
                             <p className="text-sm text-gray-500 mb-4">Science with Computer Science</p>
-                            <p className="text-3xl font-bold text-black">79%</p>
+                            <p className="text-3xl font-bold text-black mb-4">79%</p>
+                            <a
+                                href="https://drive.google.com/drive/u/4/folders/17a12moyp1cracZqjNJc6xC6XtVERxX73"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors"
+                            >
+                                View Marksheets →
+                            </a>
                         </motion.div>
 
                         <motion.div
@@ -81,7 +99,15 @@ export default function Education() {
                             <h3 className="text-xl font-bold text-black mb-2">Class 10 (ICSE)</h3>
                             <p className="text-gray-700 mb-1">Lions Calcutta (Greater) Vidya Mandir</p>
                             <p className="text-sm text-gray-500 mb-4">Science with Computer Application</p>
-                            <p className="text-3xl font-bold text-black">93.60%</p>
+                            <p className="text-3xl font-bold text-black mb-4">93.60%</p>
+                            <a
+                                href="https://drive.google.com/drive/u/4/folders/1aOiLDNiJQ2YQ5kEZMhhAGXkVC8qNO8Vk"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors"
+                            >
+                                View Marksheets →
+                            </a>
                         </motion.div>
                     </div>
                 </div>
