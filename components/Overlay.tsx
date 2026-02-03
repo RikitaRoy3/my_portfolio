@@ -30,10 +30,20 @@ export default function Overlay() {
             >
                 <div className="p-4 max-w-2xl group cursor-default">
                     <h1 className="text-6xl md:text-9xl font-bold tracking-tighter mb-6 text-neutral-200 drop-shadow-lg transition-all duration-500 group-hover:text-white group-hover:drop-shadow-2xl">Rikita Roy</h1>
-                    <div className="h-px w-24 bg-white/30 mr-auto mb-6 transition-all duration-500 group-hover:w-32 group-hover:bg-white/50" />
-                    <p className="text-xl md:text-2xl font-medium tracking-wide text-neutral-300 drop-shadow-md transition-colors duration-300 group-hover:text-white">
-                        Departmental Topper <span className="text-sm opacity-70">CSE(Data Science)</span> <span className="mx-2 opacity-50">|</span> Problem Solver <span className="mx-2 opacity-50">|</span> MERN Stack <span className="mx-2 opacity-50">|</span> Java <span className="mx-2 opacity-50">|</span> C <span className="mx-2 opacity-50">|</span> AI/ML <span className="mx-2 opacity-50">|</span> Python
+                    <div className="h-px w-[600px] max-w-full bg-white/30 mr-auto mb-6 transition-all duration-500 group-hover:w-[620px] group-hover:bg-white/50" />
+                    <p className="text-xl md:text-2xl font-medium tracking-wide text-neutral-300 drop-shadow-md transition-colors duration-300 group-hover:text-neutral-100">
+                        | Departmental Topper <span className="text-sm opacity-70">CSE (Data Science)</span>
+                        <span className="mx-2 opacity-50">|</span>
+                        Problem Solver (DSA)
+                        <span className="mx-2 opacity-50">|</span>
+                        MERN Stack
+                        <span className="mx-2 opacity-50">|</span>
+                        Java
+                        <span className="mx-2 opacity-50">|</span>
+                        C
+                        <span className="mx-2 opacity-50">|</span>
                     </p>
+
                 </div>
             </motion.div>
 
