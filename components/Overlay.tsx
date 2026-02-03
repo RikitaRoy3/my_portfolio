@@ -11,14 +11,21 @@ export default function Overlay() {
     // 0.3-0.5: Second section
     // 0.6-0.8: Third section
 
+    // Sequence is 1000vh, so scroll range is very long.
+    // 0-0.2: First section (Hero)
+    // 0.3-0.5: Second section (Thoughtful solutions)
+    // 0.6-0.8: Third section (Turning ideas)
+
     const opacity1 = useTransform(scrollYProgress, [0, 0.15, 0.25], [1, 1, 0]);
     const y1 = useTransform(scrollYProgress, [0, 0.25], [0, -50]);
 
-    const opacity2 = useTransform(scrollYProgress, [0.25, 0.35, 0.45, 0.55], [0, 1, 1, 0]);
-    const y2 = useTransform(scrollYProgress, [0.25, 0.55], [50, -50]);
+    // Section 2: Building thoughtful solutions... (Right aligned)
+    const opacity2 = useTransform(scrollYProgress, [0.3, 0.4, 0.5, 0.6], [0, 1, 1, 0]);
+    const y2 = useTransform(scrollYProgress, [0.3, 0.6], [50, -50]);
 
-    const opacity3 = useTransform(scrollYProgress, [0.55, 0.65, 0.85], [0, 1, 0]); // Fade out before end
-    const y3 = useTransform(scrollYProgress, [0.55, 0.85], [50, 0]);
+    // Section 3: Turning ideas... (Center aligned, Finale)
+    const opacity3 = useTransform(scrollYProgress, [0.65, 0.75, 0.85, 0.95], [0, 1, 1, 0]);
+    const y3 = useTransform(scrollYProgress, [0.65, 0.95], [50, -50]);
 
     return (
         <div className="absolute inset-0 pointer-events-none z-10 flex flex-col justify-center text-foreground px-4 md:px-20">
@@ -47,25 +54,23 @@ export default function Overlay() {
                 </div>
             </motion.div>
 
-            {/* Section 2: Left */}
+            {/* Section 2: Left - Thoughtful solutions */}
             <motion.div
                 style={{ opacity: opacity2, y: y2 }}
-                className="absolute inset-0 flex items-center justify-start px-8 md:px-32"
-            >
-                <div className="max-w-3xl text-left">
-                    <h2 className="text-3xl md:text-5xl font-bold leading-tight text-neutral-300 drop-shadow-md">
-                        Focused on creating <span className="text-neutral-400">scalable</span> and <span className="text-neutral-400">user-friendly applications.</span>
-                    </h2>
-                </div>
-            </motion.div>
-
-            {/* Section 3: Right */}
-            <motion.div
-                style={{ opacity: opacity3, y: y3 }}
-                className="absolute inset-0 flex items-center justify-end px-8 md:px-32 text-right"
+                className="absolute inset-0 flex items-center justify-start px-8 md:px-32 text-left"
             >
                 <h2 className="text-2xl md:text-3xl font-bold leading-tight max-w-3xl text-black/90">
                     Building thoughtful solutions <br /> <span className="text-black/40">through code and design</span>
+                </h2>
+            </motion.div>
+
+            {/* Section 3: Center - Turning ideas */}
+            <motion.div
+                style={{ opacity: opacity3, y: y3 }}
+                className="absolute inset-0 flex items-center justify-center text-center px-4"
+            >
+                <h2 className="text-3xl md:text-5xl font-bold leading-tight text-neutral-600">
+                    Turning ideas into <br /> <span className="text-black">efficient digital solutions.</span>
                 </h2>
             </motion.div>
 

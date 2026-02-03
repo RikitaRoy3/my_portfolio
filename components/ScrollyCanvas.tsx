@@ -109,7 +109,7 @@ export default function ScrollyCanvas({ numFrames = 120, children }: { numFrames
     }, [isLoaded, renderFrame, frameIndex]);
 
     return (
-        <div className="h-[500vh] relative">
+        <div className="h-[1000vh] relative">
             <div className="sticky top-0 h-screen w-full overflow-hidden">
                 <canvas ref={canvasRef} className="block w-full h-full object-cover" />
                 {children}
