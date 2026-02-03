@@ -54,7 +54,7 @@ export default function Overlay() {
             >
                 <div className="max-w-3xl text-left">
                     <h2 className="text-3xl md:text-5xl font-bold leading-tight text-neutral-300 drop-shadow-md">
-                        I approach every subject with <span className="text-neutral-400">curiosity, dedication,</span> and a <span className="text-neutral-400">growth mindset.</span> 🚀
+                        Focused on creating <span className="text-neutral-400">scalable</span> and <span className="text-neutral-400">user-friendly applications.</span>
                     </h2>
                 </div>
             </motion.div>
@@ -64,8 +64,8 @@ export default function Overlay() {
                 style={{ opacity: opacity3, y: y3 }}
                 className="absolute inset-0 flex items-center justify-end px-8 md:px-32 text-right"
             >
-                <h2 className="text-5xl md:text-7xl font-bold leading-tight max-w-3xl text-black/90">
-                    Where design meets <br /> <span className="text-black/40">engineering</span>
+                <h2 className="text-2xl md:text-3xl font-bold leading-tight max-w-3xl text-black/90">
+                    Building thoughtful solutions <br /> <span className="text-black/40">through code and design</span>
                 </h2>
             </motion.div>
 
