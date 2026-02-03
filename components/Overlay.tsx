@@ -52,9 +52,11 @@ export default function Overlay() {
                 style={{ opacity: opacity2, y: y2 }}
                 className="absolute inset-0 flex items-center justify-start px-8 md:px-32"
             >
-                <h2 className="text-5xl md:text-7xl font-bold leading-tight max-w-3xl text-black/90">
-                    Crafting high-performance <br /> <span className="text-black/40">digital experiences</span>
-                </h2>
+                <div className="max-w-3xl text-left">
+                    <h2 className="text-3xl md:text-5xl font-bold leading-tight text-neutral-300 drop-shadow-md">
+                        I approach every subject with <span className="text-neutral-400">curiosity, dedication,</span> and a <span className="text-neutral-400">growth mindset.</span> 🚀
+                    </h2>
+                </div>
             </motion.div>
 
             {/* Section 3: Right */}

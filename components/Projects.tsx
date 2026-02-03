@@ -63,7 +63,7 @@ export default function Projects() {
                                 </div>
                             </div>
 
-                            <div className="relative z-10 flex gap-4 mt-auto">
+                            <div className="relative z-10 flex gap-4 mt-auto pt-4 border-t border-gray-100">
                                 <a
                                     href={project.repo}
                                     target="_blank"
